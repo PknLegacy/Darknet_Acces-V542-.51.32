@@ -1,0 +1,13 @@
+/ (Projektroot)
+├─ index.html
+└─ assets/
+├─ css/
+│ └─ style.css
+├─ js/
+│ ├─ router.js
+│ ├─ app.js
+│ └─ tor.js
+└─ data/
+├─ nodes.json
+├─ tor_nodes.json
+└─ onion_pages.json
