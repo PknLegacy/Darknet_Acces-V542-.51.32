@@ -1,0 +1,20 @@
+### Was du bekommst
+
+* **Klar getrennt:**
+  `index.html`, `assets/css/style.css`, `assets/js/{router,app,tor}.js`, `assets/data/{nodes,tor_nodes,onion_pages}.json`
+* **Neue Features:**
+
+  * Hash-Router für Navigation
+  * Connection-Matrix lädt Knoten aus JSON
+  * Terminal-Kommandos (Demo)
+  * Chat mit “Monitor”-Antwort (Demo)
+  * Marketplace/Files/VPN/Surveillance Panels
+  * **Tor-Browser-Demo**: Tabs, .onion-Adressleiste, Circuit-Anzeige (Entry/Middle/Exit), “New Identity”, Demo-Seiten aus JSON
+* **README** mit Start-Hinweisen und lokalen Server-Tipps
+
+### Download & Start
+
+
+### Hinweise (Edu-Only)
+
+Das ist **nur** eine UI/UX-Simulation zu Bildungszwecken – keine echten Verbindungen, kein Kauf/Verkauf, alles Demo-Texte. Gerne kannst du die Texte für deinen Kontext (z. B. Stream/Video) entschärfen/umschreiben.
