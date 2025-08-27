@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Beijing-Shadow-12",
+    "ip": "192.168.13.45",
+    "status": "Stable - Low Risk",
+    "dangerous": false
+  },
+  {
+    "name": "Tehran-Ghost-09",
+    "ip": "10.0.0.89",
+    "status": "Unstable - Medium Risk",
+    "dangerous": false
+  },
+  {
+    "name": "Unknown-Node-666",
+    "ip": "?.?.?.?",
+    "status": "DANGEROUS - EXTREME RISK",
+    "dangerous": true
+  },
+  {
+    "name": "Siberia-Deep-15",
+    "ip": "172.16.0.23",
+    "status": "Secure - Low Risk",
+    "dangerous": false
+  },
+  {
+    "name": "Moscow-Dark-07",
+    "ip": "185.220.47.133",
+    "status": "Secure - Medium Risk",
+    "dangerous": false
+  }
+]
