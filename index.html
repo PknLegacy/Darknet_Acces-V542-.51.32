@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DARKNET ACCESS TERMINAL — Demo</title>
+  <link rel="stylesheet" href="assets/css/style.css"/>
+</head>
+<body>
+  <div class="header">
+    <div class="logo">DARKNET ACCESS TERMINAL</div>
+    <div class="status">
+      <div class="status-item">
+        <div class="status-dot"></div>
+        <span>ENCRYPTED</span>
+      </div>
+      <div class="status-item">
+        <div class="status-dot warning"></div>
+        <span>MONITORED</span>
+      </div>
+      <div class="status-item">
+        <div class="status-dot"></div>
+        <span id="userCount">247 ACTIVE</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="main-container">
+    <aside class="sidebar">
+      <div class="nav-section">
+        <div class="nav-title">Primary Access</div>
+        <button class="nav-item active" data-route="home">System Status</button>
+        <button class="nav-item" data-route="connection">Connection Matrix</button>
+        <button class="nav-item" data-route="chat">Encrypted Chat</button>
+        <button class="nav-item" data-route="marketplace">Underground Market</button>
+        <button class="nav-item" data-route="terminal">Command Terminal</button>
+      </div>
+
+      <div class="nav-section">
+        <div class="nav-title">Security Tools</div>
+        <button class="nav-item" data-route="crypto">Crypto Wallet</button>
+        <button class="nav-item" data-route="files">Encrypted Files</button>
+        <button class="nav-item" data-route="vpn">VPN Status</button>
+        <button class="nav-item" data-route="surveillance">Surveillance Monitor</button>
+        <button class="nav-item" data-route="tor">Tor Browser (Demo)</button>
+      </div>
+
+      <div class="nav-section">
+        <div class="nav-title">Emergency Protocols</div>
+        <div class="emergency-protocols">
+          <button class="protocol-btn" id="btn-emergency">EMERGENCY DISCONNECT</button>
+          <button class="protocol-btn" id="btn-burn">DATA DESTRUCTION</button>
+          <button class="protocol-btn" id="btn-ghost">GHOST MODE</button>
+        </div>
+      </div>
+    </aside>
+
+    <main class="content">
+      <!-- Sections are injected here -->
+      <section id="view"></section>
+    </main>
+  </div>
+
+  <div class="disclaimer">
+    WICHTIG: Dies ist eine Demo-Oberfläche zu Bildungszwecken. Keine echten Funktionen oder Verbindungen.
+  </div>
+
+  <script src="assets/js/router.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/tor.js"></script>
+</body>
+</html>

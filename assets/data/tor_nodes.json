@@ -1,0 +1,32 @@
+[
+  {
+    "role": "entry",
+    "country": "Netherlands",
+    "code": "nl"
+  },
+  {
+    "role": "entry",
+    "country": "Germany",
+    "code": "de"
+  },
+  {
+    "role": "middle",
+    "country": "Canada",
+    "code": "ca"
+  },
+  {
+    "role": "middle",
+    "country": "Finland",
+    "code": "fi"
+  },
+  {
+    "role": "exit",
+    "country": "Switzerland",
+    "code": "ch"
+  },
+  {
+    "role": "exit",
+    "country": "Iceland",
+    "code": "is"
+  }
+]
