@@ -1,0 +1,17 @@
+[
+  {
+    "address": "welcome-demo.onion",
+    "title": "Welcome to the Tor Demo",
+    "body": "This is a local, educational simulation. No real network calls happen here."
+  },
+  {
+    "address": "marketplace42abcd.onion",
+    "title": "Underground Bazaar",
+    "body": "Listings are placeholders. This demo is for UI exploration only."
+  },
+  {
+    "address": "securemail7yx.onion",
+    "title": "Secure Mailbox",
+    "body": "End-to-end encrypted mail demo. Messages are not stored or sent anywhere in this simulation."
+  }
+]
